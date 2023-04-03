@@ -1,0 +1,9 @@
+Este proyecto no pude relisarlo como se deberia la auntenticacion no finciona 
+porque JS dectecta errores que en fuentes oficiales disen que esta escrito 
+corectamente o que no son compatibles y tampoco puedo enviar bien los 
+datos de la app a la base de datos de firebase deje dos pruebas uno con 
+y sin los frameworks de node de firebase y en ambos dise que no se pueden 
+conectar con la autenticacion por un errode sintaxis que no existe ya vi 
+que otros usauarios no dectecta este error de sintaxis en youtube y en forros 
+o deberia de instalar algo mas para que funcione o deberia probar con php 
+en lugar de html

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styi.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre">
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        
+          <button type="submit" id="envi" disabled>Enviar</button>
+          
+        </form>
+    </div>
+    <div class="form-container" id="miembros">
+  
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+//import { initializeApp } from "./firebase/firebase-auth.js"; no funciona 
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDfe_p48589ftNjzvCgRL2ZwVw8dZiq-zg",
+  authDomain: "primeravez-53ba2.firebaseapp.com",
+  projectId: "primeravez-53ba2",
+  storageBucket: "primeravez-53ba2.appspot.com",
+  messagingSenderId: "131319944037",
+  appId: "1:131319944037:web:ceb710773d3c5533dc078c"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+    </script>
+    <script src="jas.js"></script>
+</body>
+</html>
